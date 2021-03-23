@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_tri_selectif {
+    width: 20%;
+    height: 7rem;
+}
+
+h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    color:  #58ac34;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: black;
+}
+
+#title_tri {
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #58ac34;
+}
+
+#image1, #image2 {
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image1 {
+    width: 35%;
+    cursor: pointer;
+}
+
+.image2 {
+    width: 30%;
+    cursor: pointer;
+}
+
+.image3, .image4, .image5 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#drop_down1, #drop_down2 {
+    margin: 2rem;
+    display: none;
+}
+
+#retour {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fa-undo {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: #58ac34;
+}
+
+a {
+    text-decoration: none;
+}
